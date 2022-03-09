@@ -1,0 +1,26 @@
+.site-header {
+  background-image: url(../img/fruits.png);
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 15px;
+}
+
+.button {
+  background-color: green;
+  text-align: center;
+}
+
+.button-light {
+  background-color: white;
+}
+
+.little-fruts {
+  display: flex;
+}
