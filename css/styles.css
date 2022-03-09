@@ -23,4 +23,5 @@ a {
 
 .little-fruts {
   display: flex;
+  flex-direction: column;
 }
