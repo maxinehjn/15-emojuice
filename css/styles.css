@@ -16,12 +16,14 @@ body {
   text-align: center;
   background-image: url(../img/fruits.webp);
   background-size: cover;
+  margin: auto;
 }
 
 
 h1 {
   color: #57bb6b;
   font-family: 'Quattrocento', serif;
+  font-weight: lighter;
   font-size:  20px;
 }
 
@@ -57,7 +59,7 @@ header img {
   background-color: white;
   text-align: center;
   padding: 15px;
-  margin: 10px;
+  margin: auto;
   border: 2px solid;
   color: #57bb6b;
   border-radius: 15px;
@@ -69,6 +71,7 @@ header img {
 
 h2 {
   font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
   color: #57bb6b;
   text-align: center;
   font-size: 26px;
@@ -76,6 +79,7 @@ h2 {
 
 p {
   font-family: 'Quattrocento', serif;
+  font-weight: lighter;
   font-size: 16px;
 }
 
@@ -90,6 +94,7 @@ main h2{
 
 h3 {
   font-family: 'Sriracha', cursive;
+  font-size: 30px;
 }
 
 .little-fruts {
@@ -138,4 +143,10 @@ footer p{
   font-size: 12px;
   color: #57bb6b;
   text-align: center;
+}
+
+.banana-box {
+  background-color: red;
+  border-radius: 20px;
+  padding: 30px;
 }
