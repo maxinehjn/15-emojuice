@@ -109,10 +109,10 @@ margin: 50px 0;
   width: 28px;
 }
 
-.background {
+.background-light {
   background-color: white;
   padding-bottom: 50px;
-
+  margin: auto;
 }
 
 .button-container {
