@@ -18,25 +18,25 @@ body {
   background-size: cover;
 }
 
+
 h1 {
-  font-family: 'Quattrocento';
+  color: #57bb6b;
+  font-family: 'Quattrocento', serif;
+  font-size:  20px;
 }
 
 
 .logo-card {
-  background-color: #ffffff74;
-  margin: 28px 30px 0 30px;
-}
-
-h2 {
-  color: #57bb6b;
   text-align: center;
-  font-size: 26px;
+  background-color: #ffffffba;
+  margin: 28px 30px 10px 30px;
+  padding: 20px 50px;
 }
 
-main h2{
-  color: black;
+header img {
+  text-align: center;
 }
+
 
 .button {
   background-color: #57bb6b;
@@ -64,6 +64,28 @@ main h2{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  color: #57bb6b;
+  text-align: center;
+  font-size: 26px;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+
+main h2{
+  color: black;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
 }
 
 .little-fruts {
@@ -102,8 +124,14 @@ margin: 50px 0;
   margin-bottom: 5px;
 }
 
+footer h2 {
+  color: #57bb6b;
+  text-align: center;
+}
 
 footer p{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
   color: #57bb6b;
   text-align: center;
 }
