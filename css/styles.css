@@ -1,18 +1,30 @@
+/*
+font-family: 'Maven Pro', sans-serif; 400 700
+font-family: 'Quattrocento', serif; 400 700
+font-family: 'Sriracha', cursive; 400
+*/
+
+
 body {
   background-color: #57bb6b;
+  max-width: 380px;
+  margin: auto;
 }
-
-
-
 
 
 .site-header {
-  background-image: url(../img/fruits.png);
   text-align: center;
+  background-image: url(../img/fruits.webp);
+  background-size: cover;
 }
 
+h1 {
+  font-family: 'Quattrocento';
+}
+
+
 .logo-card {
-  background-color: #ffffffe6;
+  background-color: #ffffff74;
   margin: 28px 30px 0 30px;
 }
 
@@ -77,6 +89,8 @@ margin: 50px 0;
 
 .background {
   background-color: white;
+  padding-bottom: 50px;
+
 }
 
 .button-container {
