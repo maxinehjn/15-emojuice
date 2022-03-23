@@ -153,7 +153,7 @@ footer p {
 }
 
 .banana-box {
-  background-color: red;
+  background-color: #FFF8D7;
   border-radius: 20px;
   padding: 30px;
 }
@@ -162,4 +162,12 @@ footer p {
   font-family: 'Maven Pro', sans-serif;
   font-size: 14px;
   font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.logo-container img {
+  width: 80px;
 }
