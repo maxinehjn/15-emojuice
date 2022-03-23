@@ -156,6 +156,8 @@ footer p {
   background-color: #FFF8D7;
   border-radius: 20px;
   padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.454);
+
 }
 
 .logo-container {
@@ -170,4 +172,12 @@ footer p {
 
 .logo-container img {
   width: 80px;
+}
+
+main {
+  background-color: #57bb6b;
+}
+
+.green-light {
+  background-color: #C4F2AD;
 }
